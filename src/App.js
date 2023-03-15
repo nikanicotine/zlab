@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Card1 from "./Card1";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// const prev = () => {
+//     id <= 1 ? setId(1) : setId(id - 1)
+//     console.log(id)
+// }
+//
+// const next = () => {
+//     setId(id + 1)
+//     console.log(id)
+// }
+
+const App = () => {
+    return (
+        <Card1/>
+    );
 }
 
 export default App;
